@@ -48,14 +48,14 @@ Wire Notes Line
 	11200 5150 9250 5150
 Wire Notes Line
 	9250 6500 11200 6500
-Text GLabel 10900 900  2    50   Input ~ 0
+Text GLabel 10850 900  2    50   Input ~ 0
 SCL
-Text GLabel 10900 1200 2    50   Input ~ 0
+Text GLabel 10850 1200 2    50   Input ~ 0
 SDA
 Wire Wire Line
-	10800 900  10900 900 
+	10750 900  10850 900 
 Wire Wire Line
-	10800 1200 10900 1200
+	10750 1200 10850 1200
 Text GLabel 10150 3650 1    50   Input ~ 0
 3V3
 Text GLabel 10250 3650 1    50   Input ~ 0
@@ -70,14 +70,14 @@ Text Notes 9950 3400 0    50   ~ 0
 OLED screen wiring
 Wire Notes Line
 	9250 3300 9250 6500
-Text GLabel 10900 1000 2    50   Input ~ 0
+Text GLabel 10850 1000 2    50   Input ~ 0
 U0_TX
-Text GLabel 10900 1100 2    50   Input ~ 0
+Text GLabel 10850 1100 2    50   Input ~ 0
 U0_RX
 Wire Wire Line
-	10800 1000 10900 1000
+	10750 1000 10850 1000
 Wire Wire Line
-	10800 1100 10900 1100
+	10750 1100 10850 1100
 $Comp
 L sensOCampus:ESP32 ESP1
 U 1 1 6006D219
