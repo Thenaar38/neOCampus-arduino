@@ -48,14 +48,14 @@ Wire Notes Line
 	11200 5150 9250 5150
 Wire Notes Line
 	9250 6500 11200 6500
-Text GLabel 10850 900  2    50   Input ~ 0
+Text GLabel 10900 900  2    50   Input ~ 0
 SCL
-Text GLabel 10850 1200 2    50   Input ~ 0
+Text GLabel 10900 1200 2    50   Input ~ 0
 SDA
 Wire Wire Line
-	10750 900  10850 900 
+	10800 900  10900 900 
 Wire Wire Line
-	10750 1200 10850 1200
+	10800 1200 10900 1200
 Text GLabel 10150 3650 1    50   Input ~ 0
 3V3
 Text GLabel 10250 3650 1    50   Input ~ 0
@@ -70,21 +70,21 @@ Text Notes 9950 3400 0    50   ~ 0
 OLED screen wiring
 Wire Notes Line
 	9250 3300 9250 6500
-Text GLabel 10850 1000 2    50   Input ~ 0
+Text GLabel 10900 1000 2    50   Input ~ 0
 U0_TX
-Text GLabel 10850 1100 2    50   Input ~ 0
+Text GLabel 10900 1100 2    50   Input ~ 0
 U0_RX
 Wire Wire Line
-	10750 1000 10850 1000
+	10800 1000 10900 1000
 Wire Wire Line
-	10750 1100 10850 1100
+	10800 1100 10900 1100
 $Comp
 L sensOCampus:ESP32 ESP1
 U 1 1 6006D219
 P 9650 2200
 F 0 "ESP1" H 10050 3700 50  0000 C CNN
 F 1 "ESP32" H 10350 3700 50  0000 C CNN
-F 2 "" H 9650 2200 50  0001 C CNN
+F 2 "pcb-v5:ESP32_30_pins" H 9650 2200 50  0001 C CNN
 F 3 "" H 9650 2200 50  0001 C CNN
 	1    9650 2200
 	1    0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 6007180F
 P 9600 5050
 F 0 "OLED1" H 10550 5000 50  0000 L CNN
 F 1 "OLED_1.3\"" H 9800 5000 50  0000 L CNN
-F 2 "" H 9600 5050 50  0001 C CNN
+F 2 "pcb-v5:OLED_1.3" H 9600 5050 50  0001 C CNN
 F 3 "" H 9600 5050 50  0001 C CNN
 	1    9600 5050
 	1    0    0    -1  
@@ -106,7 +106,7 @@ U 1 1 6006D5F4
 P 6350 6100
 F 0 "SDS111" H 7350 6050 50  0000 L CNN
 F 1 "SDS011" H 6750 6050 50  0000 L CNN
-F 2 "" H 6350 6100 50  0001 C CNN
+F 2 "pcb-v5:SDS011" H 6350 6100 50  0001 C CNN
 F 3 "" H 6350 6100 50  0001 C CNN
 	1    6350 6100
 	1    0    0    -1  
@@ -195,4 +195,64 @@ F 3 "" H 8600 6150 50  0001 C CNN
 	1    8600 6150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60086E03
+P 9850 2850
+F 0 "H1" H 9950 2896 50  0000 L CNN
+F 1 "MountingHole" H 9950 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9850 2850 50  0001 C CNN
+F 3 "~" H 9850 2850 50  0001 C CNN
+	1    9850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60088AAF
+P 10600 2850
+F 0 "H2" H 10700 2896 50  0000 L CNN
+F 1 "MountingHole" H 10700 2805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 10600 2850 50  0001 C CNN
+F 3 "~" H 10600 2850 50  0001 C CNN
+	1    10600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 60089A77
+P 8600 2750
+F 0 "J2" H 8518 2325 50  0000 C CNN
+F 1 "Conn_01x04" H 8518 2416 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8600 2750 50  0001 C CNN
+F 3 "~" H 8600 2750 50  0001 C CNN
+	1    8600 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 6008B377
+P 7600 2750
+F 0 "J1" H 7518 2325 50  0000 C CNN
+F 1 "Conn_01x04" H 7518 2416 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7600 2750 50  0001 C CNN
+F 3 "~" H 7600 2750 50  0001 C CNN
+	1    7600 2750
+	-1   0    0    1   
+$EndComp
+Text GLabel 8800 2550 2    50   Input ~ 0
+3V3
+Text GLabel 8800 2650 2    50   Input ~ 0
+GND
+Text GLabel 8800 2750 2    50   Input ~ 0
+SCL
+Text GLabel 8800 2850 2    50   Input ~ 0
+SDA
+Text GLabel 7800 2550 2    50   Input ~ 0
+3V3
+Text GLabel 7800 2650 2    50   Input ~ 0
+GND
+Text GLabel 7800 2750 2    50   Input ~ 0
+SCL
+Text GLabel 7800 2850 2    50   Input ~ 0
+SDA
 $EndSCHEMATC
