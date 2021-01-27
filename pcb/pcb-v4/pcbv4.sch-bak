@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:pcbv4-cache
+EELAYER 28 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -65,7 +66,7 @@ Connection ~ 7600 1750
 Text Notes 6350 1350 0    50   ~ 0
 ESP8266 power supply with LC filter\nNote: C14 is vertical through holes and\nC13,C15 close to the ESP8266
 $Comp
-L pcbv4-rescue:USB_B_Micro-Connector J1
+L Connector:USB_B_Micro J1
 U 1 1 5B72D8CA
 P 1550 1500
 F 0 "J1" H 1605 1967 50  0000 C CNN
