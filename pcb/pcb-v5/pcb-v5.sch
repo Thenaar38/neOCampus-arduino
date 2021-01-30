@@ -9,7 +9,7 @@ Date "2021-01-19"
 Rev "5.0"
 Comp "Université Paul Sabatier"
 Comment1 "Version supporting esp32"
-Comment2 ""
+Comment2 "M2 SIAME"
 Comment3 ""
 Comment4 ""
 $EndDescr

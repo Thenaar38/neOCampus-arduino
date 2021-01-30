@@ -448,25 +448,4 @@ Wire Notes Line
 	8900 1650 6300 1650
 Wire Notes Line
 	6300 1650 6300 450 
-$Comp
-L sensOCampus:02x06_pad e1
-U 1 1 601241B4
-P 6300 5100
-F 0 "e1" H 6375 5575 50  0000 C CNN
-F 1 "02x06_pad" H 6375 5484 50  0000 C CNN
-F 2 "pcb-v5:02x06_pad" H 6300 5100 50  0001 C CNN
-F 3 "" H 6300 5100 50  0001 C CNN
-	1    6300 5100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6350 4850
-NoConn ~ 6400 4850
-NoConn ~ 6400 4900
-NoConn ~ 6350 4900
-NoConn ~ 6350 4950
-NoConn ~ 6400 4950
-NoConn ~ 6400 5000
-NoConn ~ 6350 5000
-NoConn ~ 6350 5050
-NoConn ~ 6400 5050
 $EndSCHEMATC
